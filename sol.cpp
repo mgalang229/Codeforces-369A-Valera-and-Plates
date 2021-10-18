@@ -12,8 +12,7 @@ int main() {
 		cin >> a[i];
 	}
 	int ans = 0;
-	// to solve this problem, we need to use much plates/bowls as possible than the number
-	// of times that we need to wash either of these two
+	// to solve this problem, we need to use as much plates/bowls as possible than the number of times that we need to wash either of these two
 	for (int i = 0; i < n; i++) {
 		if (a[i] == 1) {
 			// if it's equal to dish type 1, then we need to use the bowls, otherwise we need to wash some bowls
